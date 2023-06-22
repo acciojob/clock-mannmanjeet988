@@ -7,10 +7,10 @@
 
       // Format the time and date
       const timeString = currentDate.toLocaleTimeString();
-      const dateString = currentDate.toDateString();
+      const dateString = currentDate.toLocaleDateString();
 
       // Update the content of the <p> element
-      timerElement.textContent = `${timeString} , ${dateString}`;
+      timerElement.textContent = ` ${dateString}, ${timeString} ,`;
     }
 
     // Call the function initially to display the current time and date
