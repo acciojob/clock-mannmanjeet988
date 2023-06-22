@@ -10,7 +10,7 @@
       const dateString = currentDate.toDateString();
 
       // Update the content of the <p> element
-      timerElement.textContent = `${timeString} - ${dateString}`;
+      timerElement.textContent = `${timeString} , ${dateString}`;
     }
 
     // Call the function initially to display the current time and date
